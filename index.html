@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#050505">
+    <title>Senin İçin</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         AÇILIŞ EKRANI
+    ========================== -->
+    <section class="opening-screen" id="openingScreen">
+
+        <div class="opening-content">
+
+            <p class="opening-small">bugün sadece senin günün</p>
+
+            <h1>
+                Seni seviyorum.
+                <br>
+                İyi ki varsın.
+            </h1>
+
+            <p class="opening-text">
+                Senin için küçücük bir şey hazırladım.
+                <br>
+                Ama sonuna kadar bekle.
+            </p>
+
+            <button class="continue-button" id="continueButton">
+                Hazırım
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         KARANLIK ODA
+    ========================== -->
+    <section class="dark-room" id="darkRoom">
+
+        <div class="dark-message" id="darkMessage">
+            <p>Şimdi ışıkları kapat.</p>
+
+            <button class="light-button" id="lightButton">
+                Işığı Kapat
+            </button>
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SÜRPRİZ EKRANI
+    ========================== -->
+    <section class="surprise-screen" id="surpriseScreen">
+
+        <!-- Konfeti -->
+        <div class="confetti-container" id="confettiContainer"></div>
+
+        <!-- Işık efekti -->
+        <div class="flash"></div>
+
+        <!-- Üst yazı -->
+        <div class="surprise-title">
+            <p>BUGÜN SENİN GÜNÜN</p>
+            <h2>İYİ Kİ DOĞDUN</h2>
+        </div>
+
+
+        <!-- =========================
+             PASTA
+        ========================== -->
+        <div class="cake-area" id="cakeArea">
+
+            <div class="cake-glow"></div>
+
+            <div class="cake">
+
+                <!-- Mumlar -->
+                <div class="candles">
+
+                    <div class="candle">
+                        <div class="flame"></div>
+                        <div class="candle-body"></div>
+                    </div>
+
+                    <div class="candle">
+                        <div class="flame"></div>
+                        <div class="candle-body"></div>
+                    </div>
+
+                    <div class="candle">
+                        <div class="flame"></div>
+                        <div class="candle-body"></div>
+                    </div>
+
+                </div>
+
+                <!-- Pasta katları -->
+                <div class="cake-top">
+                    <div class="cream"></div>
+                </div>
+
+                <div class="cake-middle"></div>
+
+                <div class="cake-bottom"></div>
+
+                <!-- Tabak -->
+                <div class="cake-plate"></div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             MİKROFON
+        ========================== -->
+        <div class="blow-area" id="blowArea">
+
+            <div class="mic-icon">
+                <div class="mic-head"></div>
+                <div class="mic-body"></div>
+                <div class="mic-base"></div>
+            </div>
+
+            <p class="blow-title">
+                Bir dilek tut.
+            </p>
+
+            <p class="blow-text">
+                Sonra mikrofona üfle.
+            </p>
+
+            <button class="mic-button" id="micButton">
+                Mikrofona İzin Ver
+            </button>
+
+            <div class="sound-level">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             FİNAL
+        ========================== -->
+        <div class="final-message" id="finalMessage">
+
+            <div class="final-line"></div>
+
+            <p class="final-small">
+                Dileğin kabul olsun.
+            </p>
+
+            <h3>
+                İyi ki doğdun.
+            </h3>
+
+            <p class="final-text">
+                Seni çok seviyorum.
+                <br>
+                İyi ki hayatımdasın.
+            </p>
+
+            <div class="final-heart">
+                ♥
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Konfeti için canvas -->
+    <canvas id="confettiCanvas"></canvas>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
